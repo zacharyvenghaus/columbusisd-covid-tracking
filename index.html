@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>COVID-19 Tracking</title>
+        <title>Columbus ISD COVID-19 Tracker</title>
         <meta name="description" content="COVID-19 Tracking">
-        <meta name="author" content="Kory Prince <korylprince@gmail.com>">
+        <meta name="author" content="Zachary Venghaus <zachary.venghaus@cisdschools.org>">
         <style type="text/css">
             body {
                 max-width: 960px;
@@ -141,8 +141,8 @@
 
             async function main() {
                 const params = (new URL(document.location.href)).searchParams
-                const district = params.get("district")
-                const gsheet_id = params.get("id")
+                const district = params.get("Columbus ISD")
+                const gsheet_id = params.get("1P8VfzAKAyqPOv7FjPN2bqxutZddas7AxLGKX1FQfoew")
 
                 document.title = `${district} COVID-19 Tracking`
 
