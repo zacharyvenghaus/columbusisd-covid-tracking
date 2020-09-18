@@ -196,16 +196,6 @@
                         labels: chart_data.map(val => val.Campus).map(val => val.split(" ")),
                         datasets: [
                             {
-                                label: "Exposed/Symptomatic Students",
-                                data: chart_data.map(val => val["Exposed/Symptomatic Students"]),
-                                backgroundColor: "#003595",
-                            },
-                            {
-                                label: "Exposed/Symptomatic Staff",
-                                data: chart_data.map(val => val["Exposed/Symptomatic Staff"]),
-                                backgroundColor: "#838bfa",
-                            },
-                            {
                                 label: "Positive Students",
                                 data: chart_data.map(val => val["Positive Students"]),
                                 backgroundColor: "#cf102d",
