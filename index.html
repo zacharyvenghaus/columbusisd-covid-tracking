@@ -1,3 +1,4 @@
++
 <!doctype html>
 <html lang="en">
     <head>
@@ -126,9 +127,8 @@
             }
 
             async function main() {
-                const params = (new URL(document.location.href)).searchParams
-                const district = params.get("Columbus ISD")
-                const gsheet_id = params.get("1P8VfzAKAyqPOv7FjPN2bqxutZddas7AxLGKX1FQfoew")
+                const district = "Columbus ISD"
+                const gsheet_id = "1P8VfzAKAyqPOv7FjPN2bqxutZddas7AxLGKX1FQfoew"
 
                 document.title = `${district} COVID-19 Tracking`
 
